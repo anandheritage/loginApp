@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container" style="padding-top:50px;">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<form method="POST" action="{% url 'login_view' %}" class="signin">
+					{% load crispy_forms_tags %}
+					{% crispy form %}
+					<input type="submit" value="Login" class="form-control btn btn-primary">
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
