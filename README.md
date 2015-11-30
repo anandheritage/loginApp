@@ -15,8 +15,8 @@ To start the app..
  Step 2 : pip install -r requirements.txt <br />
  Step 3 : python manage.py runserver <br />
 
-Then you can logged in as a user...I already made one user account named:
+Then you can logged in as a user...I already made one user account named:<br />
 user: vijay <br />
-password: directi<br />
+password: directi <br />
 
 For any confusion: contact: anandkrshawheritage@gmail.com
