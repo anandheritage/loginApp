@@ -9,9 +9,9 @@ django-crispy-form For easily working with forms in django for more info : http:
 
 To start the app..
 
--- Step 1 : Clone it to your local directory.
--- Step 2 : pip install -r requirements.txt 
--- Step 3 : python manage.py runserver
+ Step 1 : Clone it to your local directory.<br />
+-- Step 2 : pip install -r requirements.txt <br />
+-- Step 3 : python manage.py runserver <br />
 
 Then you can logged in as a user...I already made one user account named: user: vijay password: directi
 
